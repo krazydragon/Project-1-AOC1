@@ -26,8 +26,25 @@
     [self.window makeKeyAndVisible];
     
     
-  
+    //Float & Int
     
+    float decNum = 3.678f;
+    int fullNum = (int)decNum;
+    
+    NSLog(@"decNum = %f, fullNum = %d", decNum, fullNum); 
+    
+    //And Or
+    
+    float a = 2.5f;
+    int b = 5;
+    
+    if ((a < 2.6) && (b == 5))
+    {
+        NSLog(@"I think i'm getting the hang of this");
+    }
+    else {
+        NSLog(@"Better luck next time");
+    }
     
     //Single Loop
     for (int g=7; g < 11; g++)
