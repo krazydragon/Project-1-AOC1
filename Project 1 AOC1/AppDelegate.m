@@ -24,7 +24,24 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+  
+    
+    
+    //Single Loop
+    for (int g=7; g < 11; g++)
+    {
+        NSLog(@"this works: %d", g);
+    }
+    
+    
+    
+    
     return YES;
+    
+    
+   
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
