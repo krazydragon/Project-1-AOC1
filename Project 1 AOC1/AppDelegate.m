@@ -46,14 +46,39 @@
         NSLog(@"Better luck next time");
     }
     
-    //Single Loop
-    for (int g=7; g < 11; g++)
+    
+    //If Else If Else
+    
+    int c = -5;
+    
+    if (c > 0)
     {
-        NSLog(@"this works: %d", g);
+        NSLog(@"This number is postive");
+    }
+    else if (c < 0) {
+        NSLog(@"This number is negitive");    
+    }
+    else {
+        NSLog(@"This number is zero");
     }
     
     
+    //Single Loop
+    for (int d=7; d < 11; d++)
+    {
+        NSLog(@"this works: %d", d);
+    }
     
+    
+    //Nested loop
+    for (int e=1; e < 5; e++)
+    {
+        NSLog(@"this loop counts up: %d", e);
+        for (int f=5; f > 0; f--)
+        {
+            NSLog(@"while this nested loop counts down: %d", f);
+        }
+    }    
     
     return YES;
     
