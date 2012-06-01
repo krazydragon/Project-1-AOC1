@@ -80,6 +80,12 @@
         }
     }    
     
+    //While loop
+    while (b < 10) 
+    {
+        NSLog(@"Current value of b is %d", b);
+        b++;
+    }
     return YES;
     
     
