@@ -46,6 +46,13 @@
         NSLog(@"Better luck next time");
     }
     
+    if ((a == 2.6) || (b == 5))
+    {
+        NSLog(@"this works too");
+    }
+    else {
+        NSLog(@":(");
+    }
     
     //If Else If Else
     
